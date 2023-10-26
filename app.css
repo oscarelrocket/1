@@ -1,0 +1,183 @@
+/*reglas generales*/
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header container */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Styilos hero section */
+.hero {
+    background-image: url('img/principal.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Productos */
+.product-grid {
+    background-color: white;
+    padding: 0% 0;
+    text-align: center;
+
+}
+
+.product-grid-2 {
+    background-color: white;
+    max-width: 100%;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.container-0 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-2 {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.container-3 {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.product-card-2 {
+    background-color: #497ba4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0px 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.product-card-1 {
+    background-color: #497ba4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.product-card {
+    background-color: #497ba4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0px 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Style the product image */
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-card-1 img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+/* Style the product name */
+.product-name {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Style the product description */
+.product-description {
+    margin-top: 10px;
+    color: #e5e5e5;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #a6a6a6;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the footer columns */
+.footer-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
